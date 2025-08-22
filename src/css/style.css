@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    min-height: auto;
+  }
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
